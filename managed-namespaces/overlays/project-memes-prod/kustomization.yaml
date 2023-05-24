@@ -3,7 +3,8 @@ kind: Kustomization
 
 namespace: project-memes-prod
 bases:
-- ../../base
+- ./project-memes-dev
+- ./project-memes-prod
 
 # Patches are edits to make to a set of one or more targets
 patches:
